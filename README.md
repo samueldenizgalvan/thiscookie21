@@ -17,15 +17,6 @@ Sitio web completo para la tienda de galletas artesanales ThisCookie21 con siste
 
 ### 💻 Desarrollo Local (Windows)
 
-#### 1️⃣ Instalar Node.js
-Descarga e instala desde: https://nodejs.org/ (versión LTS)
-
-#### 2️⃣ Iniciar el Bot WhatsApp
-```powershell
-cd "C:\Users\samue\Local Sites\thiscookie21\app\public\wp-content\themes\thiscookie21\whatsapp-bot"
-```
-
-**Opción A** - Doble clic en: `INICIAR-BOT.bat`
 
 **Opción B** - Comando manual:
 ```powershell

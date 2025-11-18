@@ -360,7 +360,23 @@ get_header();
 </head>
 <body>
     <div class="admin-container">
-        <h1>🍪 Panel de Pedidos - ThisCookie21</h1>
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 15px;">
+            <h1 style="margin: 0;">🍪 Panel de Pedidos - ThisCookie21</h1>
+            <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                <a href="<?php echo home_url('/productos/'); ?>" style="padding: 10px 20px; background: #28a745; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 14px; display: inline-flex; align-items: center; gap: 8px; transition: all 0.3s;">
+                    🍪 Productos
+                </a>
+                <a href="<?php echo home_url('/ajustes/'); ?>" style="padding: 10px 20px; background: #6c757d; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 14px; display: inline-flex; align-items: center; gap: 8px; transition: all 0.3s;">
+                    ⚙️ Ajustes
+                </a>
+                <a href="<?php echo home_url('/'); ?>" style="padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 14px; display: inline-flex; align-items: center; gap: 8px; transition: all 0.3s;">
+                    🏠 Inicio
+                </a>
+                <a href="<?php echo home_url('/login/?logout=1'); ?>" style="padding: 10px 20px; background: #dc3545; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 14px; display: inline-flex; align-items: center; gap: 8px; transition: all 0.3s;">
+                    🚪 Salir
+                </a>
+            </div>
+        </div>
 
         <?php
         // Cargar pedidos pendientes (SOLO los que están PAGADOS pero NO confirmados NI rechazados)
